@@ -1,9 +1,9 @@
-Aevum（アエウム） 試作 v1.1
+Aevum（アエウム） 川の動画背景版 v1.2
 日々のしずくが、わたしの川になる。
 
 GitHub Pagesで使う手順
 1. GitHubで新しいリポジトリを作成（例：life-chart）。
-2. このフォルダ内の index.html、icon.svg、apple-touch-icon.png、manifest.webmanifest、.nojekyll をリポジトリ直下にアップロード。
+2. このフォルダ内の index.html、icon.svg、apple-touch-icon.png、manifest.webmanifest、river.mp4、river-poster.jpg、.nojekyll をリポジトリ直下にアップロード。
 3. Settings → Pages → Deploy from a branch → main / (root) → Save。
 4. 表示された公開URLをSafariで開く。共有メニューから「ホーム画面に追加」もできます。
 ZIPそのものをGitHubに置くのではなく、展開した中身を置いてください。
@@ -30,3 +30,11 @@ GitHubにはアプリ本体だけを置いてください。
 
 確認済み：JavaScript構文、グラフ集計、未記録間隔、検索、読み込みデータの基本検証。
 未確認：iPhone実機での表示、画像選択、位置情報許可、保存・復元の一連の操作。
+
+背景動画について
+無音・ループ・インライン再生。右上から停止・再生できます。
+iPhoneの省電力モードなどで自動再生されない場合は、静止画が表示されます。
+「背景を再生」で再生を試せます。端末の動きを減らす設定では初期状態で停止します。
+動画・静止画は同梱済み。別サイトからの動画読み込みはありません。
+前版と同じGitHub公開URLに上書きすれば、端末内の日記の保存領域は変わりません。
+更新前に念のためバックアップを書き出してください。
